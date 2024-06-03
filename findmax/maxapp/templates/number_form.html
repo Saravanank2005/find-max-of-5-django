@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximum Number among 5</title>
+</head>
+<body>
+    <center>
+        <h2>Maximum Number among Five</h2>
+    </center>
+    <form id="numberForm" method="post">
+        {% csrf_token %}
+        Enter number 1:
+        <input type="number" id="number1">
+        <br><br>
+        Enter number 2:
+        <input type="number" id="number2">
+        <br><br>
+        Enter number 3:
+        <input type="number" id="number3">
+        <br><br>
+        Enter number 4:
+        <input type="number" id="number4">
+        <br><br>
+        Enter number 5:
+        <input type="number" id="number5">
+        <br><br>
+        <button type="submit">Conclude Maximum</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
